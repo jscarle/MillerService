@@ -33,7 +33,7 @@ public static class ConfigureServices
                 policy =>
                 {
                     policy.WithOrigins("http://localhost:3000",
-                            "https://agreeable-smoke-0c65d9210.4.azurestaticapps.net")
+                            "https://yellow-bush-051788410.4.azurestaticapps.net")
                         .AllowCredentials()
                         .AllowAnyHeader()
                         .AllowAnyMethod();
